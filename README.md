@@ -1,6 +1,8 @@
 # Milkbuns
 Our submission for BrainHack 2023 XRExperience utilised Large Language Models to create a smart virtual avatar that can be interacted with through speech.
 
+The motivation behind our project was to make history and heritage more interactive, especially given the often dry manner history and heritage content is usually delivered. We hope that through our project, having an avatar that one can interact and ask questions with through speeech would arouse interest in the area of local history and heritage among youths.
+
 ## Architecture
 We first used a speech to text service (Whisper), before inputting the user prompt into a large language model (GPT-3.5), and finally we used a text to speech model (ElevenLabs) for the avatar to give an auditory response to the user.
 
